@@ -1,25 +1,26 @@
 {
   "name": "@mchangrh/node-google-calendar",
   "version": "2.0.0",
-  "description": "Simple node module that supports Google Calendar APIs",
+  "description": "updated fork of node-google-calendar",
   "main": "./src/CalendarAPI.js",
   "directories": {
     "example": "example",
     "test": "test"
+  },
   "scripts": {
-		"test": "mocha",
-		"test watch": "mocha -w"
-	},
-	"dependencies": {
-		"bluebird": "^3.4.1",
-		"google-oauth-jwt": "^0.2.0",
-		"request-promise": "^4.1.0"
-	},
-	"devDependencies": {
-		"chai": "^4.0.2",
-		"mocha": "^3.4.2",
-		"sinon": "^2.3.6"
-	},
+    "test": "mocha",
+    "test watch": "mocha -w"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "google-oauth-jwt": "^0.2.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mchangrh/node-google-calendar.git"
