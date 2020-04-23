@@ -1,9 +1,12 @@
 {
-	"name": "node-google-calendar",
-	"version": "1.1.1",
-	"description": "Simple node module that supports Google Calendar APIs",
-	"main": "./src/CalendarAPI.js",
-	"scripts": {
+  "name": "@mchangrh/node-google-calendar",
+  "version": "2.0.0",
+  "description": "Simple node module that supports Google Calendar APIs",
+  "main": "./src/CalendarAPI.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  "scripts": {
 		"test": "mocha",
 		"test watch": "mocha -w"
 	},
@@ -17,21 +20,21 @@
 		"mocha": "^3.4.2",
 		"sinon": "^2.3.6"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/yuhong90/node-google-calendar.git"
-	},
-	"keywords": [
-		"node",
-		"google",
-		"calendar",
-		"event",
-		"server-to-server-authentication"
-	],
-	"author": "Shek Yu Hong",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/yuhong90/node-google-calendar/issues"
-	},
-	"homepage": "https://github.com/yuhong90/node-google-calendar#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchangrh/node-google-calendar.git"
+  },
+  "keywords": [
+    "node",
+    "google",
+    "calendar",
+    "event",
+    "server-to-server-authentication"
+  ],
+  "author": "Michael Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchangrh/node-google-calendar/issues"
+  },
+  "homepage": "https://github.com/mchangrh/node-google-calendar#readme"
 }
