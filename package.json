@@ -1,6 +1,6 @@
 {
   "name": "@mchangrh/node-google-calendar",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "updated fork of node-google-calendar",
   "main": "./src/CalendarAPI.js",
   "directories": {
