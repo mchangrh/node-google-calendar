@@ -1,3 +1,6 @@
+# Archival Notice
+This repository will be archived as Niles no longer dependent on node-google-calendar
+
 # node-google-calendar
 
 Simple node module that supports Google Calendar API
